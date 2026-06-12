@@ -155,10 +155,11 @@
                   echo "<h2>✨ สูตรคูณแม่ ". $a1 . " ✨</h2>";
                   echo "<div class='multiplication-list'>";
                   
-                  $i = 1;
-                  while ($i <= 12) {
+                 
+                  for  ( $i = 1;$i <= 12; $i++) {
+
                       echo $a1 . " × " . $i . " = " . ($a1 * $i) . "<br>";
-                      $i++;
+                    
                   }
                   
                   echo "</div>";
